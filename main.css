@@ -1,0 +1,11 @@
+@media print{
+	.oculto-impresion, .oculto-impresion *{
+		display: none !important;
+	}
+	.visible-impresion{}
+}
+@media screen{
+	.visible-impresion{
+		display: none !important;
+	}
+}
